@@ -1,6 +1,6 @@
 config =
   default:
-    siteUrl: 'https://dev.sample.jp/'
+    siteUrl: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/'
     keywords: ''
 
     showOGP: true # ogpタグを表示するかどうか
@@ -22,7 +22,7 @@ config =
 
     ogSiteName: 'sample'
 
-    ogImage: 'https://dev.sample.jp/assets/img/ogp.png'
+    ogImage: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg'
     ogImageType: 'image/png'
     ogImageWidth: '1200'
     ogImageHeight: '630'
@@ -38,12 +38,12 @@ config =
     twitterCardImg: ''
 
     favicons:
-      default: '/assets/img/icon/favicon.ico'
+      default: './assets/img/icon/favicon.ico'
       # "96x96": '/assets/img/icon/favicon-96.png'
       # "192x192": '/assets/img/icon/favicon-192.png'
 
     appleTouchIcons:
-      default: '/assets/img/icon/apple-touch-icon.png'
+      default: './assets/img/icon/apple-touch-icon.png'
       # "57x57"  : '/assets/img/icon/apple-touch-icon-57.png'
       # "60x60"  : '/assets/img/icon/apple-touch-icon-60.png'
       # "72x72"  : '/assets/img/icon/apple-touch-icon-72.png'
@@ -54,7 +54,7 @@ config =
       # "152x152": '/assets/img/icon/apple-touch-icon-152.png'
       # "180x180": '/assets/img/icon/apple-touch-icon-180.png'
 
-    manifestJson: '/assets/img/icon/manifest.json'
+    manifestJson: './assets/img/icon/manifest.json'
 
     themeColor: '#ffffff'
 
@@ -65,16 +65,16 @@ config =
     msAppTitleColor: '#ffffff'
 
   develop:
-    siteUrl: 'https://dev.sample.jp/'
-    ogImage: 'https://dev.sample.jp/assets/img/ogp.png'
+    siteUrl: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/'
+    ogImage: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg'
 
   staging:
-    siteUrl: 'https://stg.sample.jp/'
-    ogImage: 'https://stg.sample.jp/assets/img/ogp.png'
+    siteUrl: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/'
+    ogImage: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg'
 
   production:
-    siteUrl: 'https://sample.jp/'
-    ogImage: 'https://sample.jp/assets/img/ogp.png'
+    siteUrl: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/'
+    ogImage: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg'
 
 
 module.exports = (env) ->

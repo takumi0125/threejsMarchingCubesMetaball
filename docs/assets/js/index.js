@@ -5485,7 +5485,7 @@ try {
 module.exports = {
   "projectName": "marchingCubes",
   "env": "develop",
-  "siteUrl": "https://dev.sample.jp/"
+  "siteUrl": "https://takumi0125.github.io/threejsMarchingCubesMetaball/"
 };
 
 /***/ }),

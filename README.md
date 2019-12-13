@@ -10,8 +10,8 @@ npm i
 npm start
 ```
 
-## 概要
-gulp-static-website-v7をご参照ください。
+開発環境の仕様方法は<br>
+gulp-static-website-v7をご参照ください。<br>
 https://github.com/takumi0125/gulp-static-website-v7
 
 

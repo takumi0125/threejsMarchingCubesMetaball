@@ -106,12 +106,12 @@ html(prefix="og:http://ogp.me/ns#")
     block css
 
     //- head内で読み込みたいJS
-    //- script(src="/assets/js/head.js")
+    //- script(src="./assets/js/head.js")
     block scriptHead
 
 
   body(class=bodyClass)
     block contents
 
-    script(src="/assets/js/lib.js")
+    script(src="./assets/js/lib.js")
     block script

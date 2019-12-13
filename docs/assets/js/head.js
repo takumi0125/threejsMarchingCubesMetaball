@@ -1505,7 +1505,7 @@ g,0<d.length&&(d=za[d[0]])&&(a.c[e]=d))}a.c[e]||(d=za[e])&&(a.c[e]=d);for(d=0;d<
 module.exports = {
   "projectName": "marchingCubes",
   "env": "develop",
-  "siteUrl": "https://dev.sample.jp/"
+  "siteUrl": "https://takumi0125.github.io/threejsMarchingCubesMetaball/"
 };
 
 /***/ }),
