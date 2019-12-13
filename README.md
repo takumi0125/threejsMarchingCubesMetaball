@@ -1,10 +1,10 @@
 three.js Marching Cubes Metaball
 ===============================
 
-![three.js Marching Cubes Metaball](https://github.com/takumi0125/threejsMarchingCubesMetaball/assets/img/ogp.jpg)
+![three.js Marching Cubes Metaball](https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg)
 
 DEMO
-https://github.com/takumi0125/threejsMarchingCubesMetaball
+https://takumi0125.github.io/threejsMarchingCubesMetaball/
 
 ## install
 ```bash
