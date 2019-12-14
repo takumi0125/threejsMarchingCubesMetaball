@@ -153,7 +153,12 @@ void main(void){
   vec3 pos = position;
 
   vDiscard = 0.0;
-  if (edgeIndex == 0.0) {
+  if(edgeIndex == 255.0) {
+    // edgeIndexが255の場合、頂点は破棄
+    vNormal = vec3(0.0, 0.0, 1.0);
+    pos = position;
+    vDiscard = 1.0;
+  } else if (edgeIndex == 0.0) {
     pos = interpolate(c0, c1, v0, v1);
   } else if (edgeIndex == 1.0) {
     pos = interpolate(c1, c2, v1, v2);
@@ -177,11 +182,6 @@ void main(void){
     pos = interpolate(c2, c6, v2, v6);
   } else if (edgeIndex == 11.0) {
     pos = interpolate(c3, c7, v3, v7);
-  } else {
-    // edgeIndexが255の場合、頂点は破棄
-    vNormal = vec3(0.0, 0.0, 1.0);
-    pos = position;
-    vDiscard = 1.0;
   }
 
   vNormal = getNormal(pos);

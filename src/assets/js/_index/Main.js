@@ -30,12 +30,9 @@ export default class Main {
 
       // renderer
       this.devicePixelRatio = window.devicePixelRatio;
-      this.devicePixelRatio = 1;
       this.renderer = new THREE.WebGLRenderer({
         canvas: this.canvas,
-        devicePixelRatio: this.devicePixelRatio,
-        // alpha: true,
-        // antialias: true
+        devicePixelRatio: this.devicePixelRatio
       });
       this.renderer.setPixelRatio(this.devicePixelRatio);
 
