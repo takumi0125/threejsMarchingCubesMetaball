@@ -12,7 +12,7 @@ if(ENV.env == 'production') {
 
 g.assetsDir = '/assets'
 
-import checkDevice from '../_modules/utils/ua/checkDevice';
+import checkDevice from '../_utils/ua/checkDevice';
 g.md = checkDevice();
 
 if(g.md.tablet()) {
@@ -30,28 +30,28 @@ if(g.md.tablet()) {
 
 const html = document.querySelector('html');
 
-import isiOS from '../_modules/utils/ua/isiOS';
+import isiOS from '../_utils/ua/isiOS';
 g.isiOS = isiOS;
 
-import isAndroid from '../_modules/utils/ua/isAndroid';
+import isAndroid from '../_utils/ua/isAndroid';
 g.isAndroid = isAndroid;
 
-import isIE11 from '../_modules/utils/ua/isIE11';
+import isIE11 from '../_utils/ua/isIE11';
 g.isIE11 = isIE11;
 if(g.isIE11)  html.classList.add('is-ie11');
 
-import isEdge from '../_modules/utils/ua/isEdge';
+import isEdge from '../_utils/ua/isEdge';
 g.isEdge = isEdge;
 if(g.isEdge)  html.classList.add('is-edge');
 
-import isWindows from '../_modules/utils/ua/isWindows';
+import isWindows from '../_utils/ua/isWindows';
 g.isWindows = isWindows;
 if(g.isGoogleBot)  html.classList.add('is-windows');
 
-import isChrome from '../_modules/utils/ua/isChrome';
+import isChrome from '../_utils/ua/isChrome';
 g.isChrome = !isEdge && isChrome;
 
-import isFirefox from '../_modules/utils/ua/isFirefox';
+import isFirefox from '../_utils/ua/isFirefox';
 g.isFirefox = !isEdge && isFirefox;
 if(g.isFirefox)  html.classList.add('is-firefox');
 
