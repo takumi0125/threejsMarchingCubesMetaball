@@ -23,7 +23,7 @@ config =
     ogSiteName: 'sample'
 
     ogImage: 'https://takumi0125.github.io/threejsMarchingCubesMetaball/assets/img/ogp.jpg'
-    ogImageType: 'image/png'
+    ogImageType: 'image/jpeg'
     ogImageWidth: '1200'
     ogImageHeight: '630'
 
